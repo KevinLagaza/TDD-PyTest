@@ -1,14 +1,19 @@
 # Appli LeJustePrix 
 
-## Environnement virtuel
-L'environnement virtuel permet d'isoler le developemment de l'app.
+All the commands (to be typed in the terminal) required to run the above program are listed below:
 
-### Créer l'environnement virtuel
-`py -m venv <nom de l'env>`
-Un dossier /<nom de l'env> devrais apparaitre
+### Create virtual environnement
+* `py -m venv <name of the environment>`
 
-### Activer l'env
-`./<nom de l'env>/Scripts/activate`
+A folder labelled /<name of the environment> should appear
 
-### Désactiver l'env
-`deactivate`
+### Activate the virtual environnement
+* `./<name of the environment>/Scripts/activate`
+
+### Install the dependencies
+* `pip install -r ./requirements.txt`
+
+### Run the `main.py` file
+
+### Desactivate the virtual environnement
+* `deactivate`
